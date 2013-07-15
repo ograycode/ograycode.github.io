@@ -1,5 +1,5 @@
 ### About Me
-I'm a full stack software devloper in the Washington, D.C. metro area. I build amazing things in my free time when I'm not busy spending it with my lovely wife or friends.
+I'm a full stack software developer in the Washington, D.C. metro area. I build amazing things in my free time when I'm not busy spending it with my lovely wife or friends.
 
 ### Experience
 I have experience building hybrid mobile applications, large mission-critical enterprise software, pulling off pilot projects with absurd timelines and tackling technically challenging problems in order to make successful products.
