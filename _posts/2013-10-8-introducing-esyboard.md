@@ -10,11 +10,11 @@ My newest project, [EsyBoard](www.esyboard.com), was launched just a few days ag
 ###Features
 
 It's still in the early days of [EsyBoard](www.esyboard.com), but it has some key features that make it incredibly useful:
-  * Saving
-  * Forking
-  * Freeform text
-  * Drawing
-  * Importing images and svg's
+*   Saving
+*   Forking
+*   Freeform text
+*   Drawing
+*   Importing images and svg's
 
 ###Technical side
 
