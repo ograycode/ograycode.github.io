@@ -11,7 +11,7 @@ Recently, I was tasked with creating another demo project. The requirements were
 
 At this point, I decided to take a risk and choose the most appropriate technology stack for the job and not what was unofficially blessed. After all, this is a demo right? The whole point is fast iterations, to show off what we can do and win the approvals of those who have the power to approve. 
 
-I choose to use [AngularJS](http://angularjs.org/) and [Bootstrap 3](http://www.getboostrap.com) with a [Django](https://www.djangoproject.com/) backend. This combination of technologies gave me the power to rapidly build out the mockups and have them be fully functional with mocked data in a matter of hours -- they thought it would take a week. 
+I choose to use [AngularJS](http://angularjs.org/) and [Bootstrap 3](http://getbootstrap.com/) with a [Django](https://www.djangoproject.com/) backend. This combination of technologies gave me the power to rapidly build out the mockups and have them be fully functional with mocked data in a matter of hours -- they thought it would take a week. 
 
 Once done, I showed this to the managers and they got excited. They started thinking through the demo some more, how it would be presented, talking outloud as I was showing them and making plans to meet about it over lunch. 
 
