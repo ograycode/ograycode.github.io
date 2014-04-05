@@ -11,7 +11,7 @@ I've found that working remotely suites me well as I can be removed from distrac
  
 That said, here are some tips I have found to working successfully outside the office: 
  
-*  Effective communication though several channels if key. 
+*  Effective communication through several channels is key. 
 *  Do not hesitate to use video chat. 
 *  Keep in contact every working day with the rest of your team. 
 *  Make your work environment as distraction free as possible. 
