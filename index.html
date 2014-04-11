@@ -33,30 +33,43 @@ description: index
     <div class="wrapper">
       <section>
 
-        <h3 class="center">About Me</h3>
+      <div class="row">
+        <div class="col-6">
+            <h3 class="center">About Me</h3>
+            <p>I'm a full stack software developer currently living in Charleston, South Carolina. I build amazing things in my free time when I'm not busy spending it with my lovely wife or friends.</p>
+        </div>
 
-        <p>I'm a full stack software developer currently living in Charleston, South Carolina. I build amazing things in my free time when I'm not busy spending it with my lovely wife or friends.</p>
+        <div class="col-6">
+          <h3 class="center">Experience</h3>
+          <p>I have experience working in startups and large enterprises, building hybrid mobile applications, large mission-critical enterprise software, pulling off pilot projects with absurd timelines and tackling technically challenging problems in order to make successful products.</p>
+        </div>
+      </div>
 
-        <h3 class="center">Experience</h3>
+      <div class="row">
+        <div class="col-6">
+          <h3>Links</h3>
+          <p>
+            Find me on <a href="http://www.linkedin.com/pub/jason-o-gray/2b/900/b3b">LinkedIn</a>, <a href="https://github.com/ograycode">GitHub</a> and <a href="http://stackoverflow.com/users/983290/tomj">StackOverflow</a>
+          </p>
+          <p>
+            Also checkout my other projects, <a href="http://www.esyboard.com">EsyBoard</a> and <a href="http://www.achievingzen.com">Achieving Zen</a>
+          </p>
+        </div>
+        <div class="col-6">
+          <h3>Recent Posts</h3>
+          <ul>
+            {% for post in site.posts %}
+              <li>
+                <span>{{ post.date | date_to_string }}</span>
+                 - 
+                 <a href="{{ post.url }}">{{ post.title }}</a>
+               </li>
+            {% endfor %}
+          </ul>
 
-        <p>I have experience working in startups and large enterprises, building hybrid mobile applications, large mission-critical enterprise software, pulling off pilot projects with absurd timelines and tackling technically challenging problems in order to make successful products.</p>
+        </div>
+      </div>
 
-        <h3>Links</h3>
-
-        <p>Find me on <a href="http://www.linkedin.com/pub/jason-o-gray/2b/900/b3b">LinkedIn</a>, <a href="https://github.com/ograycode">GitHub</a> and <a href="http://stackoverflow.com/users/983290/tomj">StackOverflow</a></p>
-
-        <p>Also checkout my other projects, <a href="http://www.esyboard.com">EsyBoard</a> and <a href="http://www.achievingzen.com">Achieving Zen</a>
-
-        <h3>Recent Posts</h3>
-        <ul>
-          {% for post in site.posts %}
-            <li>
-              <span>{{ post.date | date_to_string }}</span>
-               - 
-               <a href="{{ post.url }}">{{ post.title }}</a>
-             </li>
-          {% endfor %}
-        </ul>
       </section>
 
     </div>
